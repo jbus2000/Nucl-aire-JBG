@@ -1,0 +1,47 @@
+p {
+	margin: 50px;
+	font-family: Arial, sans-serif;
+}
+a:hover {
+	color: red;
+}
+#entete {
+    max-width: 100%;
+    height: auto;
+}
+#menu {
+	width: 20.5%;
+	float: left; 
+}
+#menu ul {
+	margin: -12px;
+	padding: 12px 13px;
+	list-style: none;
+}
+#menu a {
+	display: block;
+	height: 1%; 
+	padding: 0px 0px 0px 10px;
+	line-height: 1.5;
+	font-size: 2em;
+	text-decoration: none;
+	background: #cfdf9b;
+	
+}
+#texte {
+	margin-left: 21%; 
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	font-size: 1.25em;
+	background: #20aebf;
+}
+#texte > :first-child {
+	margin-top: 10px;
+}
+#texte p, #contenu li {
+	line-height: 1.5;
+}
+
+body {
+	background: #a9dbe0;
+}
